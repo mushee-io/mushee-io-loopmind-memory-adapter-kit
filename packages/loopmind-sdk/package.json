@@ -1,0 +1,19 @@
+{
+  "name": "@loopmind/sdk",
+  "version": "0.1.0",
+  "description": "Core SDK for LoopMind — Memory Adapter Kit for AI Agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": ["ai-agents", "memory", "autonomys", "decentralized", "langchain"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
